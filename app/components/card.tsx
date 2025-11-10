@@ -1,4 +1,4 @@
-export default async function Card() {
+export default function Card() {
   return (
     <article className="border-2 border-pink-400 w-60">
       <h3>{"toothpaste"}</h3>
