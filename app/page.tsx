@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Card from "./components/card";
 
 export default function Home() {
   return (
     <main>
-      <h2>content here</h2>
+      <Card />
     </main>
   );
 }
