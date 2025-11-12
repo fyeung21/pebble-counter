@@ -7,7 +7,9 @@ export default function Card() {
 
   const handleClick = () => {
     setonClick(onClick + 1);
+    Date();
   };
+
   return (
     <article className="border-2 border-pink-400 w-60">
       <h3>{"toothpaste"}</h3>
@@ -15,7 +17,7 @@ export default function Card() {
         + {"1"} button
       </button>
       <p>clicked: {onClick}</p>
-      <p>date logged: {"Nov 9, 1:10am"}</p>
+      <p>{Date()}</p>
     </article>
   );
 }
